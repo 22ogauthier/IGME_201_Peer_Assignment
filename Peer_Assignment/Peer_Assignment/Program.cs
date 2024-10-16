@@ -12,9 +12,11 @@
 
             //start of our actual program
             Console.WriteLine(livFavoriteNumber);
+
+            //int sum = Add(livFavoriteNumber, olliFavoriteNumber);
         }
 
-        static void Add(int num1, int num2)
+        static int Add(int num1, int num2)
         {
             return num1 + num2;
         }
